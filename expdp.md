@@ -50,3 +50,5 @@ drop user swingbench2 cascade;
 create user swingbench2 identified by swingbench2 default tablespace soe temporary tablespace temp quota unlimited on soe;
 grant connect,resource to swingbench2;
 grant WRITE,READ ON DIRECTORY swingbench_dir to swingbench2;
+
+ORDER_ID
